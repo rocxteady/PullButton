@@ -21,7 +21,7 @@ Screens
 --------------
 ![1](http://s5.postimg.org/xaldvwwvr/i_OS_Simulator_Screen_shot_Jul_26_2013_5_15_16_A.png)
 ![2](http://s5.postimg.org/pj99b3i47/i_OS_Simulator_Screen_shot_Jul_26_2013_5_15_22_A.png)
-![3]http://s5.postimg.org/597ci7rlj/i_OS_Simulator_Screen_shot_Jul_26_2013_5_15_27_A.png)
+![3](http://s5.postimg.org/597ci7rlj/i_OS_Simulator_Screen_shot_Jul_26_2013_5_15_27_A.png)
 
 in ViewController.h
 --------------
