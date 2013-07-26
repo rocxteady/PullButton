@@ -10,6 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 @implementation PullButton
+@synthesize titleLabel, backGroundImageView;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -23,21 +24,18 @@
         self.showsHorizontalScrollIndicator = NO;
         self.showsVerticalScrollIndicator = NO;
         self.delegate = self;
-        float imageRate = 0.185;
+        float imageRate = 0.21875;
         backGroundImageView = [[UIImageView alloc]initWithFrame:CGRectMake(-10, 0, frame.size.width+10, frame.size.height)];
-        titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(15, 0, backGroundImageView.frame.size.width-(imageRate*backGroundImageView.frame.size.width)-15, frame.size.height)];
+        titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(15, 0, backGroundImageView.frame.size.width-(imageRate*backGroundImageView.frame.size.width)-5, frame.size.height)];
         [titleLabel setBackgroundColor:[UIColor clearColor]];
         [titleLabel setTextAlignment:NSTextAlignmentCenter];
         [titleLabel setLineBreakMode:NSLineBreakByTruncatingMiddle];
         titleLabel.font = [UIFont boldSystemFontOfSize:14.0];
         [titleLabel setTextColor:[UIColor whiteColor]];
         [backGroundImageView addSubview:titleLabel];
-        [backGroundImageView setImage:[UIImage imageNamed:@"button"]];
+        [backGroundImageView setImage:[UIImage imageNamed:@"PullButton"]];
         backGroundImageView.userInteractionEnabled = YES;
         [self addSubview:backGroundImageView];
-        
-        backGroundImageView.layer.cornerRadius = 10.0;
-        backGroundImageView.layer.masksToBounds = YES;
         [self setContentSize:CGSizeMake((frame.size.width*2)-(imageRate*backGroundImageView.frame.size.width), frame.size.height)];
         
     }

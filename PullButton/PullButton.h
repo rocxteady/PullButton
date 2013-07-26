@@ -25,6 +25,10 @@
     UILabel *titleLabel;
 }
 
+@property (nonatomic, strong) UIImageView *backGroundImageView;
+
+@property (nonatomic, strong) UILabel *titleLabel;
+
 @property (nonatomic, weak) id <PullButtonDelegate> pullDelegate;
 
 -(void)setBackgroundImage:(UIImage *)image;

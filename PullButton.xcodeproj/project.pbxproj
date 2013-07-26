@@ -10,6 +10,7 @@
 		6A49CF2417A1EE3B008D592B /* PullButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49CF2317A1EE3B008D592B /* PullButton.m */; };
 		6A49CF2917A203F4008D592B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A49CF2617A203F4008D592B /* SVProgressHUD.bundle */; };
 		6A49CF2A17A203F4008D592B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49CF2817A203F4008D592B /* SVProgressHUD.m */; };
+		6A49CF2E17A21184008D592B /* PullButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A49CF2D17A21184008D592B /* PullButton.png */; };
 		6A5E5BB117A19E66002CC39E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5E5BB017A19E66002CC39E /* UIKit.framework */; };
 		6A5E5BB317A19E66002CC39E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5E5BB217A19E66002CC39E /* Foundation.framework */; };
 		6A5E5BB517A19E66002CC39E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5E5BB417A19E66002CC39E /* CoreGraphics.framework */; };
@@ -32,6 +33,7 @@
 		6A49CF2617A203F4008D592B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		6A49CF2717A203F4008D592B /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		6A49CF2817A203F4008D592B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		6A49CF2D17A21184008D592B /* PullButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PullButton.png; sourceTree = "<group>"; };
 		6A5E5BAD17A19E66002CC39E /* PullButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5E5BB017A19E66002CC39E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6A5E5BB217A19E66002CC39E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -112,6 +114,7 @@
 			children = (
 				6A49CF2217A1EE3B008D592B /* PullButton.h */,
 				6A49CF2317A1EE3B008D592B /* PullButton.m */,
+				6A49CF2D17A21184008D592B /* PullButton.png */,
 				6A5E5BD817A1A3ED002CC39E /* button.png */,
 				6A5E5BBF17A19E66002CC39E /* AppDelegate.h */,
 				6A5E5BC017A19E66002CC39E /* AppDelegate.m */,
@@ -197,6 +200,7 @@
 				6A5E5BCD17A19E66002CC39E /* MainStoryboard_iPad.storyboard in Resources */,
 				6A5E5BD917A1A3ED002CC39E /* button.png in Resources */,
 				6A49CF2917A203F4008D592B /* SVProgressHUD.bundle in Resources */,
+				6A49CF2E17A21184008D592B /* PullButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
