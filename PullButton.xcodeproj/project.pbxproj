@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A49CF2417A1EE3B008D592B /* PullButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49CF2317A1EE3B008D592B /* PullButton.m */; };
+		6A49CF2917A203F4008D592B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A49CF2617A203F4008D592B /* SVProgressHUD.bundle */; };
+		6A49CF2A17A203F4008D592B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49CF2817A203F4008D592B /* SVProgressHUD.m */; };
+		6A5E5BB117A19E66002CC39E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5E5BB017A19E66002CC39E /* UIKit.framework */; };
+		6A5E5BB317A19E66002CC39E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5E5BB217A19E66002CC39E /* Foundation.framework */; };
+		6A5E5BB517A19E66002CC39E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5E5BB417A19E66002CC39E /* CoreGraphics.framework */; };
+		6A5E5BBB17A19E66002CC39E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A5E5BB917A19E66002CC39E /* InfoPlist.strings */; };
+		6A5E5BBD17A19E66002CC39E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E5BBC17A19E66002CC39E /* main.m */; };
+		6A5E5BC117A19E66002CC39E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E5BC017A19E66002CC39E /* AppDelegate.m */; };
+		6A5E5BC317A19E66002CC39E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5E5BC217A19E66002CC39E /* Default.png */; };
+		6A5E5BC517A19E66002CC39E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5E5BC417A19E66002CC39E /* Default@2x.png */; };
+		6A5E5BC717A19E66002CC39E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5E5BC617A19E66002CC39E /* Default-568h@2x.png */; };
+		6A5E5BCA17A19E66002CC39E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5E5BC817A19E66002CC39E /* MainStoryboard_iPhone.storyboard */; };
+		6A5E5BCD17A19E66002CC39E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5E5BCB17A19E66002CC39E /* MainStoryboard_iPad.storyboard */; };
+		6A5E5BD017A19E66002CC39E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E5BCF17A19E66002CC39E /* ViewController.m */; };
+		6A5E5BD917A1A3ED002CC39E /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5E5BD817A1A3ED002CC39E /* button.png */; };
+		6A5E5BDB17A1A78D002CC39E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5E5BDA17A1A78D002CC39E /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A49CF2217A1EE3B008D592B /* PullButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullButton.h; sourceTree = "<group>"; };
+		6A49CF2317A1EE3B008D592B /* PullButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullButton.m; sourceTree = "<group>"; };
+		6A49CF2617A203F4008D592B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		6A49CF2717A203F4008D592B /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		6A49CF2817A203F4008D592B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		6A5E5BAD17A19E66002CC39E /* PullButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5E5BB017A19E66002CC39E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A5E5BB217A19E66002CC39E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A5E5BB417A19E66002CC39E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A5E5BB817A19E66002CC39E /* PullButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PullButton-Info.plist"; sourceTree = "<group>"; };
+		6A5E5BBA17A19E66002CC39E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A5E5BBC17A19E66002CC39E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A5E5BBE17A19E66002CC39E /* PullButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PullButton-Prefix.pch"; sourceTree = "<group>"; };
+		6A5E5BBF17A19E66002CC39E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A5E5BC017A19E66002CC39E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A5E5BC217A19E66002CC39E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6A5E5BC417A19E66002CC39E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6A5E5BC617A19E66002CC39E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6A5E5BC917A19E66002CC39E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6A5E5BCC17A19E66002CC39E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6A5E5BCE17A19E66002CC39E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A5E5BCF17A19E66002CC39E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A5E5BD817A1A3ED002CC39E /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		6A5E5BDA17A1A78D002CC39E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A5E5BAA17A19E66002CC39E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5E5BDB17A1A78D002CC39E /* QuartzCore.framework in Frameworks */,
+				6A5E5BB117A19E66002CC39E /* UIKit.framework in Frameworks */,
+				6A5E5BB317A19E66002CC39E /* Foundation.framework in Frameworks */,
+				6A5E5BB517A19E66002CC39E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A49CF2517A203E6008D592B /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6A49CF2617A203F4008D592B /* SVProgressHUD.bundle */,
+				6A49CF2717A203F4008D592B /* SVProgressHUD.h */,
+				6A49CF2817A203F4008D592B /* SVProgressHUD.m */,
+			);
+			name = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		6A5E5BA417A19E66002CC39E = {
+			isa = PBXGroup;
+			children = (
+				6A49CF2517A203E6008D592B /* SVProgressHUD */,
+				6A5E5BB617A19E66002CC39E /* PullButton */,
+				6A5E5BAF17A19E66002CC39E /* Frameworks */,
+				6A5E5BAE17A19E66002CC39E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A5E5BAE17A19E66002CC39E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A5E5BAD17A19E66002CC39E /* PullButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A5E5BAF17A19E66002CC39E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A5E5BDA17A1A78D002CC39E /* QuartzCore.framework */,
+				6A5E5BB017A19E66002CC39E /* UIKit.framework */,
+				6A5E5BB217A19E66002CC39E /* Foundation.framework */,
+				6A5E5BB417A19E66002CC39E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A5E5BB617A19E66002CC39E /* PullButton */ = {
+			isa = PBXGroup;
+			children = (
+				6A49CF2217A1EE3B008D592B /* PullButton.h */,
+				6A49CF2317A1EE3B008D592B /* PullButton.m */,
+				6A5E5BD817A1A3ED002CC39E /* button.png */,
+				6A5E5BBF17A19E66002CC39E /* AppDelegate.h */,
+				6A5E5BC017A19E66002CC39E /* AppDelegate.m */,
+				6A5E5BC817A19E66002CC39E /* MainStoryboard_iPhone.storyboard */,
+				6A5E5BCB17A19E66002CC39E /* MainStoryboard_iPad.storyboard */,
+				6A5E5BCE17A19E66002CC39E /* ViewController.h */,
+				6A5E5BCF17A19E66002CC39E /* ViewController.m */,
+				6A5E5BB717A19E66002CC39E /* Supporting Files */,
+			);
+			path = PullButton;
+			sourceTree = "<group>";
+		};
+		6A5E5BB717A19E66002CC39E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A5E5BB817A19E66002CC39E /* PullButton-Info.plist */,
+				6A5E5BB917A19E66002CC39E /* InfoPlist.strings */,
+				6A5E5BBC17A19E66002CC39E /* main.m */,
+				6A5E5BBE17A19E66002CC39E /* PullButton-Prefix.pch */,
+				6A5E5BC217A19E66002CC39E /* Default.png */,
+				6A5E5BC417A19E66002CC39E /* Default@2x.png */,
+				6A5E5BC617A19E66002CC39E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A5E5BAC17A19E66002CC39E /* PullButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A5E5BD317A19E66002CC39E /* Build configuration list for PBXNativeTarget "PullButton" */;
+			buildPhases = (
+				6A5E5BA917A19E66002CC39E /* Sources */,
+				6A5E5BAA17A19E66002CC39E /* Frameworks */,
+				6A5E5BAB17A19E66002CC39E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PullButton;
+			productName = PullButton;
+			productReference = 6A5E5BAD17A19E66002CC39E /* PullButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A5E5BA517A19E66002CC39E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Sancak;
+			};
+			buildConfigurationList = 6A5E5BA817A19E66002CC39E /* Build configuration list for PBXProject "PullButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A5E5BA417A19E66002CC39E;
+			productRefGroup = 6A5E5BAE17A19E66002CC39E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A5E5BAC17A19E66002CC39E /* PullButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A5E5BAB17A19E66002CC39E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5E5BBB17A19E66002CC39E /* InfoPlist.strings in Resources */,
+				6A5E5BC317A19E66002CC39E /* Default.png in Resources */,
+				6A5E5BC517A19E66002CC39E /* Default@2x.png in Resources */,
+				6A5E5BC717A19E66002CC39E /* Default-568h@2x.png in Resources */,
+				6A5E5BCA17A19E66002CC39E /* MainStoryboard_iPhone.storyboard in Resources */,
+				6A5E5BCD17A19E66002CC39E /* MainStoryboard_iPad.storyboard in Resources */,
+				6A5E5BD917A1A3ED002CC39E /* button.png in Resources */,
+				6A49CF2917A203F4008D592B /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A5E5BA917A19E66002CC39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5E5BBD17A19E66002CC39E /* main.m in Sources */,
+				6A5E5BC117A19E66002CC39E /* AppDelegate.m in Sources */,
+				6A5E5BD017A19E66002CC39E /* ViewController.m in Sources */,
+				6A49CF2417A1EE3B008D592B /* PullButton.m in Sources */,
+				6A49CF2A17A203F4008D592B /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A5E5BB917A19E66002CC39E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A5E5BBA17A19E66002CC39E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A5E5BC817A19E66002CC39E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A5E5BC917A19E66002CC39E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6A5E5BCB17A19E66002CC39E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A5E5BCC17A19E66002CC39E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A5E5BD117A19E66002CC39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A5E5BD217A19E66002CC39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A5E5BD417A19E66002CC39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullButton/PullButton-Prefix.pch";
+				INFOPLIST_FILE = "PullButton/PullButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A5E5BD517A19E66002CC39E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullButton/PullButton-Prefix.pch";
+				INFOPLIST_FILE = "PullButton/PullButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A5E5BA817A19E66002CC39E /* Build configuration list for PBXProject "PullButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5E5BD117A19E66002CC39E /* Debug */,
+				6A5E5BD217A19E66002CC39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A5E5BD317A19E66002CC39E /* Build configuration list for PBXNativeTarget "PullButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5E5BD417A19E66002CC39E /* Debug */,
+				6A5E5BD517A19E66002CC39E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A5E5BA517A19E66002CC39E /* Project object */;
+}
