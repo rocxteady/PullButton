@@ -1,4 +1,4 @@
-ComboBox 0.1 For iOS 
+PullButton 0.1 For iOS 
 ==============
 
 Requirements
@@ -15,44 +15,47 @@ Contact
 
 Demo
 --------------
-Build and run the *ComboBoxExample* project in Xcode.
+Build and run the project in Xcode.
 
 Screens
 --------------
-![Before Touch](http://s12.postimg.org/prca8muul/i_OS_Simulator_Screen_shot_Jul_26_2013_1_56_24_A.png)
-![After Touch](http://s5.postimg.org/kqw6ki0dz/i_OS_Simulator_Screen_shot_Jul_26_2013_2_01_33_A.png)
+![1](http://s5.postimg.org/xaldvwwvr/i_OS_Simulator_Screen_shot_Jul_26_2013_5_15_16_A.png)
+![2](http://s5.postimg.org/pj99b3i47/i_OS_Simulator_Screen_shot_Jul_26_2013_5_15_22_A.png)
+![3]http://s5.postimg.org/597ci7rlj/i_OS_Simulator_Screen_shot_Jul_26_2013_5_15_27_A.png)
 
 in ViewController.h
 --------------
 
     #import <UIKit/UIKit.h>
-    #import "ComboBox.h"
+    #import "PullButton.h"
 
-    @interface ViewController : UIViewController <ComBoxDelegate>
+    @interface ViewController : UIViewController <UIScrollViewDelegate, PullButtonDelegate>
 
-    @property (nonatomic, strong) NSArray *dataObjects;
     @end
     
 in ViewController.m
 --------------
     
-    - (void)viewDidLoad
-    {
-        [super viewDidLoad];
-        ComboBox *comboBox = [[ComboBox alloc]initWithFrame:CGRectMake(50, 50, 220, 36)];
-        comboBox.delegate = self;
-        [comboBox setComboBoxSize:CGSizeMake(220, 44*4)];
-        [self.view addSubview:comboBox];
+	- (void)viewDidLoad
+	{
+   	 [super viewDidLoad];
     
-        _dataObjects = [NSArray arrayWithObjects:@"House",@"Apple",@"Book",@"Drink", nil];
+    	PullButton *pull = [[PullButton alloc]initWithFrame:CGRectMake(110, 111, 100, 25)];
+    	pull.pullDelegate = self;
+    	[pull setBackgroundColor:[UIColor darkGrayColor]];
+    	[pull setTitle:@"Buton"];
+    	[self.view addSubview:pull];
     
-        [comboBox setComboBoxDataArray:_dataObjects];
-    	// Do any additional setup after loading the view, typically from a nib.
-    }
+		// Do any additional setup after loading the view, typically from a nib.
+	}
 
-    -(void)comboBox:(ComboBox *)comboBox didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-        NSLog(@"%@", [_dataObjects objectAtIndex:indexPath.row]);
-    }
+	-(void)pullButtonNotPulled:(PullButton *)pullButton{
+		NSLog(@"Could Not Pulled");
+	}
+
+	-(void)pullButtonPulled:(PullButton *)pullButton{
+    	NSLog(@"Pulled");
+	}
 
 License
 --------------
