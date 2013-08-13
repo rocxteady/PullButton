@@ -23,12 +23,12 @@
     PullButton *pull = [[PullButton alloc]initWithFrame:CGRectMake(110, 111, 100, 25)];
     pull.pullDelegate = self;
     [pull setBackgroundColor:[UIColor darkGrayColor]];
-    [pull setTitle:@"Buton"];
+    [pull setTitle:@"Button"];
     [self.view addSubview:pull];
     
     PullButton *pull2 = [[PullButton alloc]initWithFrame:CGRectMake(60, 211, 200, 50)];
     pull2.pullDelegate = self;
-    [pull2 setTitle:@"Some Buton"];
+    [pull2 setTitle:@"Some Button"];
     [pull2 setBackgroundColor:[UIColor darkGrayColor]];
     [self.view addSubview:pull2];
     
