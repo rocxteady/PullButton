@@ -19,9 +19,9 @@ Build and run the project in Xcode.
 
 Screens
 --------------
-![1](http://s5.postimg.org/6urb4ss8n/i_OS_Simulator_Screen_shot_Aug_14_2013_1_19_24_A.png)
-![2](http://s5.postimg.org/vpasyvd2v/i_OS_Simulator_Screen_shot_Aug_14_2013_1_20_29_A.png)
-![3](http://s5.postimg.org/za6oi3hmf/i_OS_Simulator_Screen_shot_Aug_14_2013_1_20_36_A.png)
+![1](http://s5.postimg.org/m7b1ytref/i_OS_Simulator_Screen_shot_Aug_14_2013_1_19_24_A.png)
+![2](http://s5.postimg.org/kgs0xc9vb/i_OS_Simulator_Screen_shot_Aug_14_2013_1_20_29_A.png)
+![3](http://s5.postimg.org/ki1yqrbp3/i_OS_Simulator_Screen_shot_Aug_14_2013_1_20_36_A.png)
 
 in ViewController.h
 --------------
